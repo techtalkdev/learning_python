@@ -1,0 +1,277 @@
+🟢1. Basics
+
+- Data & Assigning Data to Variables
+    Data : Data is any information that you can store and work with in a program.
+    Variables: A variable is like a container that stores data so you can use it later.
+
+- Operators - (Arithmetic, Assignment, Comparison, Logical)
+
+       🔢1. Arithmetic Operators: - These are used to do math:
+    | Operator | Meaning             | Example  | Result |
+    | -------- | ------------------- | -------- | ------ |
+    | `+`      | Addition            | `5 + 3`  | `8`    |
+    | `-`      | Subtraction         | `5 - 3`  | `2`    |
+    | `*`      | Multiplication      | `5 * 3`  | `15`   |
+    | `/`      | Division            | `6 / 3`  | `2.0`  |
+    | `//`     | Floor Division      | `7 // 2` | `3`    |
+    | `%`      | Modulus (remainder) | `7 % 2`  | `1`    |
+    | `**`     | Exponentiation      | `2 ** 3` | `8`    |
+       🧮2. Assignment Operators - These are used to assign values to variables
+    | Operator | Example   | Same As        |
+    | -------- | --------- | -------------- |
+    | `=`      | `x = 5`   | Assigns 5 to x |
+    | `+=`     | `x += 3`  | `x = x + 3`    |
+    | `-=`     | `x -= 2`  | `x = x - 2`    |
+    | `*=`     | `x *= 4`  | `x = x * 4`    |
+    | `/=`     | `x /= 2`  | `x = x / 2`    |
+    | `//=`    | `x //= 2` | `x = x // 2`   |
+    | `%=`     | `x %= 3`  | `x = x % 3`    |
+    | `**=`    | `x **= 2` | `x = x ** 2`   |
+
+        ⚖️ 3. Comparison Operators - Used to compare values. They return True or False.
+        | Operator | Meaning             | Example  | Result  |
+    | -------- | ------------------- | -------- | ------- |
+    | `==`     | Equal to            | `5 == 5` | `True`  |
+    | `!=`     | Not equal to        | `5 != 3` | `True`  |
+    | `>`      | Greater than        | `5 > 3`  | `True`  |
+    | `<`      | Less than           | `2 < 3`  | `True`  |
+    | `>=`     | Greater or equal to | `5 >= 5` | `True`  |
+    | `<=`     | Less or equal to    | `4 <= 3` | `False` |
+
+        🧠 4. Logical Operators - Used to combine multiple conditions.
+    | Operator | Meaning                          | Example             | Result  |
+    | -------- | -------------------------------- | ------------------- | ------- |
+    | `and`    | True if **both** are true        | `(5 > 2 and 3 < 4)` | `True`  |
+    | `or`     | True if **at least one** is true | `(5 > 2 or 3 > 4)`  | `True`  |
+    | `not`    | **Reverses** the result          | `not (5 > 2)`       | `False` |
+
+- Strings and Lists
+    Strings : A string is text — letters, words, or sentences inside quotes.
+              You can use single ' or double " quotes.
+    Lists : A list is a collection of items stored in square brackets [].
+
+- Tuple : A tuple is just like a list, but it is unchangeable (immutable).
+          You create it using round brackets () and You can’t change it after it’s created (can’t add, remove, or update items)
+
+          🆚 Tuple vs List
+                  | Feature    | List                    | Tuple                  |
+        | ---------- | ----------------------- | ---------------------- |
+        | Brackets   | `[]`                    | `()`                   |
+        | Can change | ✅ Yes                   | ❌ No (immutable)       |
+        | Faster     | ❌ Slightly slower       | ✅ Faster in some cases |
+        | Used for   | Collections that change | Fixed data groups      |
+
+- Boolean  -> True ✅/False ❌
+
+- Binary - Binary is the language of computers — it only uses two digits: 0 and 1
+
+0 and 1
+- EVEN -> whole numbers that are divisible by 2 without a remainder and ODD Numbers -> whole numbers that cannot be divided evenly by 2
+
+🔁2. Control Flow: Control flow helps you control the direction your program takes, like making decisions or repeating actions.
+
+- If Statements : Used to run code only if a condition is true.
+- Conditions in If Statements: else, elif - elif: short for "else if" — test another condition and else: runs if no previous condition was True
+- Loops - (for, while) : 🔁 for Loop – used to repeat over a sequence (like a list, string, or range) and 🔁 while Loop – runs while a condition is True
+- Control Flow - (break, continue, pass)
+               - 🔴 break – Exit the loop immediately
+               - 🟡 continue – Skip the rest of the current loop and go to the next round
+               - ⚪ pass – Do nothing (placeholder)
+                | Keyword    | Use Case                          |
+                | ---------- | --------------------------------- |
+                | `if`       | Run code if condition is true     |
+                | `elif`     | Check another condition           |
+                | `else`     | Run if no other condition matched |
+                | `for`      | Loop over sequences               |
+                | `while`    | Loop while condition is true      |
+                | `break`    | Exit the loop early               |
+                | `continue` | Skip current iteration            |
+                | `pass`     | Do nothing (placeholder)          |
+
+
+
+🧮 3. Functions & Procedures
+
+- Functions and Procedures
+        *A function is a block of code that runs only when you call it.
+        *You can give it input (called parameters) and get output (using return).
+- Return vs Print
+        | `print()`                | `return`                          |
+        | ------------------------ | --------------------------------- |
+        | Shows result on screen   | Sends result back to the caller   |
+        | Just for displaying info | Allows further use in the program |
+
+- Parameters & Arguments
+        *Parameters = variables in the function definition
+        *Arguments = actual values you pass when calling the function
+
+
+📊4. Calculations & Algorithms
+
+- Average
+        ✅ Formula: Average= Count of numbers / Sum of numbers
+
+- Compound Interest
+    🧠 Approach:
+    Get values: principal P, rate r, time t, and compounding frequency n
+    Plug into formula using ** for power
+
+- Factorial: ✅ Concept - n!=n×(n−1)×⋯×1
+    🧠 Approach:
+        Use a loop or recursion
+        Multiply from 1 to n
+
+- Fibonacci
+    ✅ Formula: F(n)=F(n−1)+F(n−2)
+    🧠 Approach:
+    Start with 0, 1
+    Add the last two numbers to generate next
+    Use a loop or recursion
+
+- Greatest Common Denominator (GCD):
+    ✅ Concept - gcd(a,b)=gcd(b,amodb)
+    🧠 Approach:
+    Use the Euclidean algorithm (loop or recursion)
+    Stop when remainder is 0
+
+- Collatz Sequence
+🧠 Approach:
+Use a loop
+Print n each time until n == 1
+
+- Prime Numbers
+✅ Concept: A number greater than 1 with no divisors except 1 and itself
+🧠 Approach: If no divisors → prime
+
+- Sort Algorithms (Bubble, Selection, etc.)
+✅ Bubble Sort: Compare & swap adjacent elements
+✅ Selection Sort: Find minimum, move it to the front
+        🧠 Approach:
+        Use nested loops
+        Focus on understanding how comparisons work
+
+- Binary Search
+✅ Concept: Search in sorted list by halving search space
+        🧠 Approach:
+            Set low, high, and calculate mid
+            If target < mid, search left; else, search right
+            Repeat until found or range ends
+
+- Palindrome Check
+    ✅ Concept: Word or number that reads the same forward and backward
+        🧠 Approach:
+        Reverse the string: s[::-1]
+        Compare to original string
+
+- Anagrams
+    ✅ Concept: Two words with same letters in any order
+        🧠 Approach:
+        Remove spaces & convert to lowercase
+        Sort both strings and compare
+
+- ROT13 Cipher
+    ✅ Formula: ROT13=(char position+13)mod26
+        🧠 Approach:
+        Loop through each letter
+        Shift 13 places forward in the alphabet
+        Wrap using % 26
+
+- Vowels and Consonants Count
+    ✅ Concept:
+        Vowels: a, e, i, o, u
+        Consonants: All other letters (a-z)
+        🧠 Approach:
+        Loop through characters
+        Use if to check if char is vowel or consonant
+        Count both
+
+🎮5. Classic Coding Challenges
+
+- FizzBuzz
+    Print numbers 1 to n:
+        If divisible by 3, print "Fizz"
+        If divisible by 5, print "Buzz"
+        If divisible by both 3 & 5, print "FizzBuzz"
+        Else print the number
+- Towers of Hanoi
+        Move n disks from source to target using auxiliary rod:
+        Recursive Formula:  T(n)=T(n−1)+1+T(n−1)
+        Algorithm:
+            Move 𝑛 − 1 disks from source to auxiliary
+            Move 1 disk from source to targe
+            Move 𝑛 − 1 disks from auxiliary to target
+- Tic Tac Toe
+        3x3 grid
+        Players alternate marking X or O
+        Win condition: any row, column, or diagonal filled with same symbol
+        Draw if grid full and no winner
+        Win check:
+        Check if any row, column, or diagonal has same non-empty symbol.
+- Rock Paper Scissors Lizard Spock
+        | Choice 1 | Beats            | Choice 2         |
+        | -------- | ---------------- | ---------------- |
+        | Rock     | Scissors, Lizard | Scissors, Lizard |
+        | Paper    | Rock, Spock      | Rock, Spock      |
+        | Scissors | Paper, Lizard    | Paper, Lizard    |
+        | Lizard   | Paper, Spock     | Paper, Spock     |
+        | Spock    | Rock, Scissors   | Rock, Scissors   |
+- Mastermind
+        Codebreaker guesses a sequence of colors
+        Feedback given on correct color & position (black pegs)
+        Feedback on correct color but wrong position (white pegs)
+        Repeat until code guessed or attempts exhausted
+- Blackjack
+        Goal: get as close as possible to 21 without going over
+        Cards numbered 2-10, face cards = 10, Ace = 1 or 11
+        Player chooses to hit (draw) or stand
+        Dealer follows fixed rules (usually hit until 17 or more)
+        Compare totals to determine winner
+- Word Wrap (Text Wrapping)
+        Break text into lines of max width without breaking words.
+        Basic algorithm:
+        Add words to line until adding next word exceeds width
+        Start new line
+        Repeat
+
+📦6. Data Structures
+
+- List : 1. Ordered, changeable collection of items | 2. Allows duplicates | 3. Uses square brackets []
+- Tuple : 1. Ordered, but immutable (can’t change) | 2. Uses parentheses () | 3. Faster and safer for fixed data
+- Set : 1. Unordered collection of unique items (no duplicates) | 2. Uses curly braces {} or set()
+- Dictionary : 1. Collection of key-value pairs | 2. Unordered | 3. Uses curly braces {} with key: value pairs
+- Custom Data Structures
+        | Data Structure | Ordered? | Mutable? | Syntax          | Use Case                              |
+        | -------------- | -------- | -------- | --------------- | ------------------------------------- |
+        | List           | Yes      | Yes      | `[]`            | Ordered collection, allows duplicates |
+        | Tuple          | Yes      | No       | `()`            | Fixed data, safety, performance       |
+        | Set            | No       | Yes      | `{}` or `set()` | Unique items, fast membership         |
+        | Dictionary     | No\*     | Yes      | `{key: value}`  | Key-value pairs, like JSON            |
+        | Class          | Custom   | Custom   | `class`         | Complex objects & behaviors           |
+
+
+✅7. Practice Ideas
+Create mini programs for:
+  -Checking Prime Numbers
+            1. Input: A number
+            2. Output: True if prime, False otherwise
+  -Generating Fibonacci Sequence
+            1. Input: Number of terms 𝑛
+            2. Output: List or print first 𝑛 Fibonacci numbers
+  -Sorting Lists
+            1. Input: Unsorted list
+            2. Output: Sorted list
+            3. Tip: Try implementing Bubble Sort or Selection Sort manually before using built-in sort()
+
+  -Simulating Blackjack or Mastermind
+            1. Input: User actions (hit, stand for Blackjack; guesses for Mastermind)
+            2. Output: Game status, winner, feedback
+            3. Tip: Use loops, conditionals, and possibly classes to manage game state
+
+  -Building a Tic Tac Toe Game with a 2D list
+            1. Represent the board as a 3x3 list of lists
+            2. Allow two players to alternate moves
+            3. Check for win/draw conditions after each move
+            4. Tip: Write functions to display board, take input, and check winner
+  -Solving Towers of Hanoi using recursion
+            1. Input: Number of disks
+            2. Output: Steps to move disks from source to target rod using auxiliary rod

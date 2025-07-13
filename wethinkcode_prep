@@ -1,0 +1,46 @@
+Exam prep (10 questions)
+
+Entrance exam - day 1 -> 10 questions Day 6 - Final exam
+    open class -> group project
+
+
+Data types
+1. Primitive Types - Integer, boolean, string, Float
+2. Containers - List[], Tuple(), Dictionary{'name':'Mike'},set{1, 2, 3}
+
+
+Loops
+1.for loop
+2. while loop
+3. continue & break
+
+-Fibonacci
+
+File I/O ->
+-Input = Read from a file (like reading a note someone left you)
+-Output = Write to a file (like saving something you typed)
+
+| Task       | Code Example              |
+| ---------- | ------------------------- |
+| Open file  | `open("file.txt", "r")`   |
+| Read file  | `file.read()`             |
+| Write file | `file.write("Hello")`     |
+| Append     | `open("file.txt", "a")`   |
+| Best way   | `with open(...) as file:` |
+
+
+
+Data Structures -> List and Tuple
+| Feature  | Tuple       | List            |
+| -------- | ----------- | --------------- |
+| Syntax   | `(1, 2, 3)` | `[1, 2, 3]`     |
+| Mutable  | ❌ No        | ✅ Yes           |
+| Faster   | ✅           | Slightly slower |
+| Use case | Fixed data  | Dynamic data    |
+
+
+
+
+questions and answers
+
+def is_even(num):
