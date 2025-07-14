@@ -1,0 +1,3 @@
+def count_words(text):
+    words = text.split()  # Splits the string by spaces and returns a list of words
+    return len(words)     # Returns the number of words

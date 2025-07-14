@@ -41,9 +41,9 @@
         🧠 4. Logical Operators - Used to combine multiple conditions.
     | Operator | Meaning                          | Example             | Result  |
     | -------- | -------------------------------- | ------------------- | ------- |
-    | `and`    | True if **both** are true        | `(5 > 2 and 3 < 4)` | `True`  |
-    | `or`     | True if **at least one** is true | `(5 > 2 or 3 > 4)`  | `True`  |
-    | `not`    | **Reverses** the result          | `not (5 > 2)`       | `False` |
+    | `and`    | True if both are true        | `(5 > 2 and 3 < 4)` | `True`  |
+    | `or`     | True if at least one is true | `(5 > 2 or 3 > 4)`  | `True`  |
+    | `not`    | Reverses the result          | `not (5 > 2)`       | `False` |
 
 - Strings and Lists
     Strings : A string is text — letters, words, or sentences inside quotes.

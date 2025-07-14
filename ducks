@@ -1,0 +1,9 @@
+def ducks(text):
+    words = text.split()
+    count = 0
+    for word in words:
+        if word == "Duck":
+            count += 1
+        elif word == "ducks":
+            count += 2
+    return count
